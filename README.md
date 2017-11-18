@@ -1,6 +1,9 @@
+Thesis Instructions
+-----------------------------------------------
+
 1.) CREATE Tables (FFSD_TestData2, FFSD_TrainingData2,PPSD_TrainingData2,PPSD_TestData2)
    edit tablename in code below
-------------------------------------------------
+-----------------------------------------------
 	CREATE TABLE [dbo].TABLENAME(
 		[region] [varchar](1000) NOT NULL,
 		[month_no] [varchar](1000) NOT NULL,
@@ -28,6 +31,7 @@
 -> SQL Server Client 11.0 or 10.0 for destination  -> Map to table PPSD_TrainingData 
 Repeat but map TESTDATA to PPSD_TestData2
 3.)Create Table FP_Rules
+---------------------------------------
 CREATE TABLE [dbo].[FP_Rules](
 	[Antecedent] [varchar](1000) NOT NULL,
 	[Consequent] [varchar](1000) NOT NULL,
@@ -44,5 +48,5 @@ CREATE TABLE [dbo].[Apriori_Rules2](
 	[Num_Antecedent] [int] NULL,
 	[Lift] [float] NOT NULL
 ) ON [PRIMARY]
-
+---------------------------------------
 4.)Run code after succesful import
