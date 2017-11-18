@@ -3,7 +3,6 @@ Thesis Instructions
 
 1.) CREATE Tables (FFSD_TestData2, FFSD_TrainingData2,PPSD_TrainingData2,PPSD_TestData2)
    edit tablename in code below
------------------------------------------------
 	CREATE TABLE [dbo].TABLENAME(
 		[region] [varchar](1000) NOT NULL,
 		[month_no] [varchar](1000) NOT NULL,
