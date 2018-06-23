@@ -1,6 +1,9 @@
+Learning of High Dengue Incidence with Clustering and FP-Growth Algorithm using WHO Historical Data
+-----------------------------------------------
+by AUTHORS: Reynaldo John Tristan Jr. Mahinay, Franz Stewart Dizon, Stephen Kyle Farinas, Harry Pardo and Cecil Jose Delfinado
+
 Thesis Instructions
 -----------------------------------------------
-
 1.) CREATE Tables (FFSD_TestData2, FFSD_TrainingData2,PPSD_TrainingData2,PPSD_TestData2)
    edit tablename in code below
 -----------------------------------------------
